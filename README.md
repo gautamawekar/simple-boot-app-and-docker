@@ -7,4 +7,4 @@ To get maven authenticated against docker.io add folowing to your settings.xml
 	<username>DOCKER_HUB_USERNAME</username>
 	<password>DOCKER_HUB_PWD</password>
 </server>
-```xml
+```
