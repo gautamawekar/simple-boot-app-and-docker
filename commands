@@ -1,0 +1,11 @@
+docker run -p8080:8080 <image-id>
+docker images - lists the images
+docker container ls -a #lists all the containers
+docker ps #also lists all the containers
+docker exec -it f31bec0c61d0  ls -ltr /app # re-executes a container
+docker rm 81c723d22865 #deletes the container
+docker run -p8080:8080 -t gawekar/gs-spring-boot-docker # start tagged docker
+docker image rm --force <image-id> #delete docker image4
+
+docker login # needed to push images to Docker Hub Repository
+docker tag gawekar/gs-spring-boot-docker gautamawekar/first-repo:firstimage
